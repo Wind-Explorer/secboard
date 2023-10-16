@@ -14,8 +14,8 @@ fn test_ensure_path_exists() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     // Ensure the directory and file are created
-    let result_dir = crate::sb_util::paths::ensure_path_exists(&test_dir, false)?;
-    let result_file = crate::sb_util::paths::ensure_path_exists(&test_file, true)?;
+    let result_dir = crate::sb_paths::manage::ensure_path_exists(&test_dir, false)?;
+    let result_file = crate::sb_paths::manage::ensure_path_exists(&test_file, true)?;
 
     // Check that the returned paths match the expected paths
     assert_eq!(result_dir, test_dir);

@@ -1,6 +1,7 @@
 mod sb_clipboard;
 mod sb_config;
 mod sb_crypto;
+mod sb_paths;
 mod sb_util;
 
 fn main() {
@@ -9,4 +10,5 @@ fn main() {
     sb_crypto::test();
     sb_config::test();
     sb_util::test();
+    sb_paths::test();
 }
