@@ -1,3 +1,3 @@
-mod sb_clipboard;
-mod sb_crypto;
-mod sb_paths;
+pub mod sb_clipboard;
+pub mod sb_crypto;
+pub mod sb_paths;
