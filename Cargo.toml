@@ -1,5 +1,7 @@
 [package]
 name = "secboard"
+authors = ["Wind-Explorer@github"]
+repository = "https://github.com/wind-explorer/secboard"
 version = "0.1.0"
 edition = "2021"
 
